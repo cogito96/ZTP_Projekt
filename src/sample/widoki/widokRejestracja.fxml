@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.kontrolery.widokRejestracjaKontroler">
+   <children>
+      <Label layoutX="86.0" layoutY="67.0" prefHeight="18.0" prefWidth="91.0" text="Imie" />
+      <TextField fx:id="nazwiskoNoweKonto" layoutX="206.0" layoutY="101.0" />
+      <Label layoutX="86.0" layoutY="105.0" prefHeight="18.0" prefWidth="91.0" text="Nazwisko" />
+      <Label layoutX="86.0" layoutY="148.0" prefHeight="18.0" prefWidth="91.0" text="Email" />
+      <Label layoutX="86.0" layoutY="194.0" prefHeight="18.0" prefWidth="91.0" text="Login" />
+      <Label layoutX="86.0" layoutY="239.0" prefHeight="18.0" prefWidth="91.0" text="Haslo" />
+      <TextField fx:id="emailNoweKonto" layoutX="206.0" layoutY="144.0" />
+      <TextField fx:id="loginNoweKonto" layoutX="206.0" layoutY="190.0" />
+      <TextField fx:id="imieNoweKonto" layoutX="206.0" layoutY="63.0" />
+      <Button layoutX="258.0" layoutY="340.0" mnemonicParsing="false" onAction="#dodajPracownika" prefHeight="26.0" prefWidth="75.0" text="Dodaj" />
+      <Text layoutX="231.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dodaj personel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="hasloNoweKonto" layoutX="206.0" layoutY="236.0" />
+      <RadioButton fx:id="pracownikRadioButton" layoutX="132.0" layoutY="293.0" mnemonicParsing="false" text="Pracownik">
+         <toggleGroup>
+            <ToggleGroup fx:id="rodzajPracownika" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="administratorRadioButton" layoutX="233.0" layoutY="293.0" mnemonicParsing="false" text="Administrator" toggleGroup="$rodzajPracownika" />
+   </children>
+</AnchorPane>

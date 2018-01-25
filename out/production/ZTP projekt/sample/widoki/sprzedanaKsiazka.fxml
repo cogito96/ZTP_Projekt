@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.kontrolery.sprzedanaKsiążka">
+   <children>
+      <Label layoutX="37.0" layoutY="83.0" text="Ksiażka której już nie ma" />
+      <Label fx:id="daneKsiazki" layoutX="177.0" layoutY="82.0" prefHeight="18.0" prefWidth="35.0" text="nazwa" />
+   </children>
+</AnchorPane>

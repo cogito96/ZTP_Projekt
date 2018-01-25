@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="598.0" spacing="10.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.kontrolery.GorneMenuAdministratorKontroler">
+    <children>
+        <ToggleButton mnemonicParsing="false" onAction="#dodajOsobe" prefHeight="70.0" prefWidth="115.0" text="Dodaj osobe" />
+        <ToggleButton mnemonicParsing="false" onAction="#wyswietlListeSprzedazy" prefHeight="70.0" prefWidth="119.0" text="Lista sprzedazy" />
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</HBox>

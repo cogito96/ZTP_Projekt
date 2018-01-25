@@ -1,0 +1,4 @@
+baza danych ( jakis plik txt)
+bindowanie labeli
+komunikaty o dodaniu ksiazki / pracownika
+obserwator ( jest zrobiony i dzia³a, kwestia wyswietlania w panelu osoby obserwujacej)

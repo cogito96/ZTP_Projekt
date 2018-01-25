@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0"  xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.kontrolery.MojKontroler">
+    <top>
+        <VBox prefHeight="126.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+            <fx:include fx:id="topMenuButtons" source="GorneMenu.fxml" />
+        </VBox>
+    </top>
+</BorderPane>
